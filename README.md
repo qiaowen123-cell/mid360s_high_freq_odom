@@ -26,7 +26,6 @@
 - /Odom_high_freq：IMU 外推的高频 odom，频率接近 IMU 频率
 - /mavros/vision_pose/pose：给 MAVROS 使用的视觉位姿
 - /cloud_registered：配准后的点云
-- /path：轨迹
 
 ## 高频 odom 原理
 
