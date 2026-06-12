@@ -13,14 +13,6 @@
 
 /Odom_high_freq 的频率由 IMU 频率决定。如果 MID360s IMU 为 200Hz，则该话题可接近 200Hz。
 
-## 目录结构
-
-.
-├── ws_livox/
-│   └── src/livox_ros_driver2/
-└── fastlio_ws/
-    └── src/FAST_LIO/
-
 ## 输入话题
 
 - /livox/lidar：MID360s 点云，类型为 livox_ros_driver2/CustomMsg
